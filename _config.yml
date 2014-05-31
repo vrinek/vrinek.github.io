@@ -1,0 +1,11 @@
+# Site settings
+title: "Games grindhouse"
+email: vrinek@me.com
+description: "Two games per month, that's my goal."
+baseurl: ""
+url: "http://vrinek.github.io"
+username: "vrinek"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
