@@ -27,6 +27,6 @@ It's easy to say to myself _"I made progress yesterday because I was thinking ab
 Another reason to do this is to build some team-skills. I will treat my future self as a separate team member. My forgetfulness will help with this :P
 
 
-## Playable prototype
+## Playable prototype result
 
 It does not have to be pretty or sound nice. It does not have to be bug-free. It can be slow and consume a lot of memory. These are all things that can be fixed easily given time. The game though has to be **playable** and **fun**.
