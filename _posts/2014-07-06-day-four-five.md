@@ -15,7 +15,7 @@ Just in case, I already have a plan B in mind: Unity. After working on it for th
 
 Now it's time for two things:
 
-- **Compile a list of all the game elements I want to try out** (most of them are in [Day three](game-one/2014/07/04/day-three/))
+- **Compile a list of all the game elements I want to try out** (most of them are in [Day three](/game-one/2014/07/04/day-three/))
 - **Follow some tutorials, learn more about Swift and SpriteKit**
 
 Wish me luck ;-)
