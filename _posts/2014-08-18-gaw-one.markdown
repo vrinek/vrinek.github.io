@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Game a Week #1 - Dinner for N"
+date: 2014-08-18 20:06:43
+---
+
+The basic idea is pretty simple:
+
+- You are a waiter and have to seat N guests (N means "any number") on a table
+- The guests interact with each other providing positive and negative effects
+- The guests' interactions are based on their personalities
+- Your arrangement of the guests defines the outcome of the dinner
+- You also have the power to interrupt them by bringing food (preventing a negative outcome)
+
+I don't remember how this came to mind but it sounded novel, interesting and something I would like to play at least once.
+
+The first problem to overcome is figuring out a set of guests with well-defined personalities that would be instantly recognizable. Going for known cartoon characters was quickly discarded due to copyright issues (probably a stupid thing to think about for a prototype). Next idea to be discarded were the 12 gods of Olympus since they were difficult to model and few people know them apart from their powers.
+
+The set of 12 guests that stuck were the zodiac signs. I thought this as a very clever idea since their whole existence is about human relationships and interaction. And thus I started reading about astrology, one of the most boring subjects I could think of.
+
+Even before I had a gameplay system, I started taking notes of the personalities of the zodiacs that were more game-like, rules-like. I knew that the negative outcome of a dinner would be a conflict among the guests and a fight. But how would that conflict initiate? What would the positive outcome be?
+
+During a dinner, the guests mostly discuss, thus I started thinking about topics as the main gameplay element. Each topic has a meter to be filled, deep topics have a big meter while shallow ones have a small one. Topics are discussed with those around one another. One topic might start at one end of the table and another unrelated topic on the other end, both advancing independently.
+
+Each turn the guests interact with the topic by adding to that meter. Once a topic's meter is filled, it has been resolved and it is added to the player's score. In order to have conflicts, the topics will belong to the 4 elements that the zodiacs belong to as well: fire, water, air and earth. This way an opposite zodiac will remove instead of adding to a topic and this will affect negatively the relation between the zodiacs who interacted with that topic previously.
+
+Each zodiac would have four stats: _start/mid/end_ and _against_. The first triplet is about points added to the meter of a topic as a first interaction (_start_), last interaction (_end_) and other interaction (_mid_). The _against_ stat is about the number of points a zodiac is taking out of an opposite topic and thus "damage" dealt to the zodiacs who previously interacted with the topic.
+
+Of course each zodiac would have a special power:
+
+- **Taurus** is quite stubborn so they keep on to the same topic
+- **Aries** is more prone to distractions (like food)
+- **Sagittarius** like to explore and gets a boost with every new topic they interact with
+- **Gemini** takes time to listen which boosts their stats
+- **Scorpio** getting attacked means they have to take revenge
+
+The player's interactivity with the table, arranging the guests and distracting them with food seems a little too little. I decided to keep it turn-based and have the user select which guests would act each turn. Of course some zodiacs (like the attacked Scorpio) would act without the player's consent to spice things up a bit. Also, a continuously neglected zodiac would get a grief ailment status which for some zodiacs means game over.
+
+One thing I realized close to the end of the week was that this could easily become a board game. My thought train went like this:
+
+- The objective of the game is for the player to arrange the guests anticipating their interactions
+- Thus the rules of play should be simple enough to be approximated on one's head
+- A player making the rules' calculations in their heads sounds an awful lot like a board game
+- Light-bulb!
+
+Since a board game is easier and faster to create than a video game, and it can also serve as a paper prototype, I will probably make it into one.
