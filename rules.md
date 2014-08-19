@@ -4,29 +4,14 @@ title: Rules
 permalink: /rules/
 ---
 
-I am trying to complete two games per month. In order to achieve this I am imposing some rules on myself. These rules are supposed to keep me on the path that I have chosen and make me aware of my progress.
+**NOTE**: This is a direct copy of [Rami Ismail's original post](http://ramiismail.com/2014/02/game-a-week/).
 
-## 15 days to design and develop a game
+## A Game A Week
 
-Since 48/72 hour long game jams are able to produce original and playable game prototypes, I am confident I can achieve roughly the same at a more relaxed pace. Lately I have split the 15 days into 3 sections:
+I’ve been recommending people asking me how to get into making games to do the exact same thing, with a single update for the social media age. The longer you maintain the challenge, the more experience you have.
 
-- early days: inspiration
-- mid days: tech tests, gameplay tests & design polish
-- late days: full-on development
-
-## Make progress every day
-
-I have 15 days to make a game. That's not a lot of time. I should be making some progress every single day. If I am out of inspiration, move on to the mid-days. If I am confident with the tech and the game elements, move on to the late-days.
-
-Do not rush it. Do not be lazy. Make constant progress.
-
-## Design progress counts only if written down
-
-It's easy to say to myself _"I made progress yesterday because I was thinking about the game"_ but in reality this is usually an excuse. Because of this I decided to only count design decisions that have been written down. A day with no written design decisions and no other type of progress should count as a wasted day.
-
-Another reason to do this is to build some team-skills. I will treat my future self as a separate team member. My forgetfulness will help with this :P
-
-
-## Playable prototype result
-
-It does not have to be pretty or sound nice. It does not have to be bug-free. It can be slow and consume a lot of memory. These are all things that can be fixed easily given time. The game though has to be **playable** and **fun**.
+* **Make a game every week.** Start the project after Monday 12:00AM and finish it before Sunday 11:59PM. It does not matter whether the game is digital or analog. It does not matter what you use to create the game. The only rule is to make a game.
+* **Release the game every week.** Whatever you make, whether it is complete, stable, polished or good, release it to the world through a website you specifically set up for this goal. Spread the link to the page of the game of the week on every social medium you own. Ask people to give you feedback. [WordPress](http://wordpress.com/) or [itch.io](http://itch.io/) are quite capable of handling this.
+* **Do not revisit a game.** You can go back and revisit games after you’re done. You cannot work on previous week’s game or idea again the next week. This is not about exploring specific games, this is about gaining experience. If a game is so special it sticks for a while, you can work besides Game A Week or after you’re done. You still have to complete something else each week.
+* **Try and avoid patterns in your work.** Try and do something completely different each week. Instead of making digital games, try making an analog game. Instead of making an action game, make a puzzle game. If you find yourself in a pattern, take note of that pattern and break out of it for a week or two before deciding to head back. Make patterns a conscious choice, rather than an accepted and unquestioned reality.
+* **Reflect.** Spend each week talking to some people that played your game. Write down your findings in a journal (or in a blogpost, like Adriel Wallick does [at her excellent blog](http://msminotaur.com/blog/)). Write down what you made, what went right, what went wrong and what was interesting.
