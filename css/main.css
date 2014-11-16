@@ -403,3 +403,11 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* Style helpers */
+/* ----------------------------------------------------------*/
+
+.three-mockups img {
+  max-height: 300px;
+  max-width: 30%;
+}
