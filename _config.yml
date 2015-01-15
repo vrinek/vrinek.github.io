@@ -1,7 +1,7 @@
 # Site settings
-title: "Games grindhouse"
+title: "Initializing variables..."
 email: vrinek@me.com
-description: "Two games per month, that's my goal."
+description: "Tech blog. Ruby, game development, random."
 baseurl: ""
 url: "http://blog.vrinek.io"
 username: "vrinek"
