@@ -30,9 +30,7 @@ The skeleton application can be inspected at https://github.com/vrinek/one-budge
 
 ## Step three - building, running
 
-```
-docker build -t kostas/one-budget .; and docker run -it -p 3333:3333 -v (pwd)/src:/app/src kostas/one-budget
-```
+    docker build -t kostas/one-budget .; and docker run -it -p 3333:3333 -v (pwd)/src:/app/src kostas/one-budget
 
 Now `open http://(docker-machine ip default):3333/webpack-dev-server/index.html` should get you a nice "Hello" and little more. If you update the `src/App.js` file and save it, you should see the browser update immediately.
 
@@ -44,12 +42,10 @@ Assuming that a volume has been mounted (`-v` option on the `docker run` command
 
 Others have tried [setting up rsync linked up to a watcher](https://github.com/brikis98/docker-osx-dev) to circumvent this problem (inspired by that I tried using btsync which I had already installed). I tried a few of those but as usual, the more the moving parts, the greater the chance it won't work. In the end, a more primitive approach solved this issue.
 
-```javascript
-// from webpack.config.js:11
-watchOptions: {
-  poll: true
-}
-```
+    // from webpack.config.js:11
+    watchOptions: {
+      poll: true
+    }
 
 This will simply [poll the filesystem for changes](http://webpack.github.io/docs/webpack-dev-middleware.html#lazy). It's not fast and it's not sexy but it's "good enough" to get some serious work done with React on Docker on OSX.
 
