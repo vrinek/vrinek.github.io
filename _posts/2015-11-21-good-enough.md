@@ -4,8 +4,6 @@ title: "Good enough JS development environment on OSX"
 date: 2015-12-21 20:39:49
 ---
 
-# Good enough JS development environment on OSX
-
 I recently started working on a small web-app to learn React. First thing on my TODO was to set up a development environment and since we live in the age of containers, I restricted myself to only use Docker. Bad news is I'm on OSX.
 
 ## Step zero - some background
