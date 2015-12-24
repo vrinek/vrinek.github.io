@@ -30,7 +30,8 @@ The skeleton application can be inspected at https://github.com/vrinek/one-budge
 
 ## Step three - building, running
 
-    docker build -t kostas/one-budget .; and docker run -it -p 3333:3333 -v (pwd)/src:/app/src kostas/one-budget
+    docker build -t kostas/one-budget .
+    docker run -it -p 3333:3333 -v (pwd)/src:/app/src kostas/one-budget
 
 Now `open http://(docker-machine ip default):3333/webpack-dev-server/index.html` should get you a nice "Hello" and little more. If you update the `src/App.js` file and save it, you should see the browser update immediately.
 
@@ -53,4 +54,4 @@ Cheers!
 
 ## Note to non-fish users
 
-["Fish"](http://fishshell.com) is my shell of choice and it has a slightly different syntax to bash. To translate the above shell snippets to bash simply replace `; and` with `&&` and prepend any parenthesis `(interpolation)` with a dollar sign `$(interpolation)`. Alternatively, install fish, it's awesome!
+["Fish"](http://fishshell.com) is my shell of choice and it has a slightly different syntax to bash. To translate the above shell snippets to bash simply prepend any parenthesis `(interpolation)` with a dollar sign `$(interpolation)`. Alternatively, install fish, it's awesome!
